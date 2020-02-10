@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("Info","Button pressed");
         EditText editText = (EditText) findViewById(R.id.editText);
         String str = editText.getText().toString();
+
 //        Toast.makeText(MainActivity.this, editText.getText().toString(),Toast.LENGTH_LONG).show();
         goToActivity2(str);
     }
